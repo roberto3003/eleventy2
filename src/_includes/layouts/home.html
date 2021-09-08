@@ -18,5 +18,9 @@
 	alt="{{ intro.imageAlt }}"
 	/>
   </div>
+  {% set ctaContent = primaryCTA %}
+  {% include "partials/cta.html" %}
+  {% set ctaContent = cta %}
+  {% include "partials/cta.html" %}
 </article>
 {% endblock %}
