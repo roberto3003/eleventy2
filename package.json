@@ -1,0 +1,24 @@
+{
+  "name": "eleventy2",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"start": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roberto3003/eleventy2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roberto3003/eleventy2/issues"
+  },
+  "homepage": "https://github.com/roberto3003/eleventy2#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
