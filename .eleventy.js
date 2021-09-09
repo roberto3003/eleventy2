@@ -1,4 +1,5 @@
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
+
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
@@ -39,6 +40,9 @@ module.exports = config => {
       return Number(a.fileSlug) > Number(b.fileSlug) ? 1 : -1;
     });
   });
+
+  // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
+  config.setUseGitIgnore(false);
 
   return {
     markdownTemplateEngine: 'njk',

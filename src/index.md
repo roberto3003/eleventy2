@@ -1,5 +1,7 @@
 ---
 title: 'Issue 33'
+metaDesc: 'A made up agency site that you build if you take Learn
+Eleventy From Scratch, by Piccalilli'
 layout: 'layouts/home.html'
 intro:
   eyebrow: 'Digital Marketing is our'
@@ -11,7 +13,6 @@ intro:
   imageAlt: 'Buttered toasted white bread'
 primaryCTA:
   title: 'This is an agency that doesn’t actually exist'
-  metaDesc: 'A made up agency site that you build if you take Learn Eleventy From Scratch, by Piccalilli'
   summary:
     'This is the project site you build when you take the “Learn
     Eleventy From Scratch” course so it is all made up as a pretend
