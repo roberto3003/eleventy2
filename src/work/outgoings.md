@@ -30,6 +30,6 @@ gallery:
   - title: 'Crystal clear information for users'
     summary: 'No distractions, no anti-patterns, just clear,
     user-friendly information'
-    image: '/images/work/outgoings-gallery-3.jpg'
+    image: '/images/placeholders/work-item.jpg'
 team: [1, 4, 6]
 ---
